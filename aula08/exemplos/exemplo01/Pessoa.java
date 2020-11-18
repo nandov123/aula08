@@ -1,5 +1,7 @@
 package aula08.exemplos.exemplo01;
-public class Pessoa {
+
+// uma classe abstrata serve como modelo para outras classes, porém não se pode gerar objetos a partir dela
+public abstract class Pessoa {
     private String nome;
     private String endereco;
     //private String telefone;
