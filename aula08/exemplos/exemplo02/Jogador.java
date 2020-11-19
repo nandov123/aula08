@@ -8,9 +8,10 @@ public class Jogador {
         this.nome = nome;
     }
 
-    public void addPontos(int pontos) {
+    public  void addPontos(int pontos) {
         if(pontos > 0) {
-            this.pontos += pontos; // this.pontos = this.pontos + pontos
+            //super(pontos) += pontos; // this.pontos = this.pontos + pontos
+          this.pontos += pontos; // this.pontos = this.pontos + pontos
         }
     }
 
